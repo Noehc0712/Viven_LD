@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 993daa7f7664d7441bc12d409f894865
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 948
+  packageName: Shopping Cart
+  packageVersion: 1.1
+  assetPath: Assets/Shopping Cart/Prefabs/cart_green.prefab
+  uploadId: 763547
