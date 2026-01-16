@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ddcf5c1cc03d4ee43a18e3ae1aac7878
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159006
+  packageName: Farm Field
+  packageVersion: 1.0
+  assetPath: Assets/AssetPacks/FarmField/Prefabs/FarmField_single.prefab
+  uploadId: 384190
