@@ -63,7 +63,7 @@ function objectShortClickAction(interactor)
             Debug.Log("Cocoa collected: " .. cocoaCount)
         end
 
-        -- 카다이프 (지금 안 써도 미리)
+        -- 카다이프 
         if name == "Kadaif" then
             kadaifCount = kadaifCount + 1
             Debug.Log("Kadaif collected: " .. kadaifCount)
