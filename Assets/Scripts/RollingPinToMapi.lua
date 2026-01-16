@@ -13,7 +13,7 @@ function objectShortClickAction(interactor)
 
     for i = 0, hits.Length - 1 do
         local go = hits[i].transform.gameObject
-        if go.name == "mapi" then
+        if go.name == "ma" then
             local d = hits[i].distance
             if d < closestDist then
                 closestDist = d
@@ -23,21 +23,19 @@ function objectShortClickAction(interactor)
     end
 
     if closestIdx == -1 then
-        Debug.Log("No mapi hit.")
+        Debug.Log("No marshmallow (ma) hit.")
         return
     end
 
-    if Duzzonku == nil then
-        Debug.Log("Duzzonku injection missing.")
+    -- 마시멜로를 밀대로 눌러서 피(mapi) 생성
+    if Mapi == nil then
+        Debug.Log("Mapi injection is missing.")
         return
     end
 
-    -- 두쫀쿠 완성
-    Duzzonku:SetActive(true)
+    Mapi:SetActive(true) -- 도마 위 mapi 등장
+    hits[closestIdx].transform.gameObject:SetActive(false) -- ma 소모(원하면 제거 가능)
 
-    -- 재료 소모
-    hits[closestIdx].transform.gameObject:SetActive(false) -- mapi 제거
-    self.gameObject:SetActive(false) -- spread 제거
-
-    Debug.Log("Spread + mapi → duzzonku complete!")
+    Player.Mine.EndAllInteractions()
+    Debug.Log("RollingPin used on ma -> mapi activated!")
 end
