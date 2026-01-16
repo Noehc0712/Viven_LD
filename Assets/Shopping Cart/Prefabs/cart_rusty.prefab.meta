@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b81c5efb2b29d934387b48ec3364bb10
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 948
+  packageName: Shopping Cart
+  packageVersion: 1.1
+  assetPath: Assets/Shopping Cart/Prefabs/cart_rusty.prefab
+  uploadId: 763547

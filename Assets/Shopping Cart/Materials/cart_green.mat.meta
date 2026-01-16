@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1e1367550fbd90940bd8a068c5f2b651
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 948
+  packageName: Shopping Cart
+  packageVersion: 1.1
+  assetPath: Assets/Shopping Cart/Materials/cart_green.mat
+  uploadId: 763547
