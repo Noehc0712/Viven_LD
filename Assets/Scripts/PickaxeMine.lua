@@ -32,7 +32,7 @@ function objectShortClickAction(interactor)
     for i = 0, hits.Length - 1 do
         local hitObj = hits[i].transform.gameObject
 
-        if hitObj.name == "Rock" or hitObj.name == "Pistachio" or hitObj.name == "Cocoa" or hitObj.name == "Kadaif" then
+        if hitObj.name == "Rock" or hitObj.name == "Pistachio" or hitObj.name == "Cocoa" or hitObj.name == "Kadaif" or hitObj.name == "Portal" then
             local hitDistance = hits[i].distance
             if hitDistance < closestHitDistance then
                 closestHitDistance = hitDistance
@@ -48,6 +48,49 @@ function objectShortClickAction(interactor)
     end
 
      Debug.Log("Processing closest hit object: " .. hits[closestHitIndex].transform.gameObject.name)
+
+     local target = hits[closestHitIndex].transform.gameObject
+     local name = target.name
+
+        if name == "Pistachio" then
+            pistachioCount = pistachioCount + 1
+            Debug.Log("Pistachio collected: " .. pistachioCount)
+        end
+
+        -- 코코아 카운트
+        if name == "Cocoa" then
+            cocoaCount = cocoaCount + 1
+            Debug.Log("Cocoa collected: " .. cocoaCount)
+        end
+
+        -- 카다이프 (지금 안 써도 미리)
+        if name == "Kadaif" then
+            kadaifCount = kadaifCount + 1
+            Debug.Log("Kadaif collected: " .. kadaifCount)
+        end
+
+        -- 포탈 클릭 시 텔레포트
+        if name == "Portal" then
+            if pistachioCount >= 2 and cocoaCount >= 2 then
+                Debug.Log("Teleporting to TT area")
+
+
+                local teleportTarget = GameObject.Find("TeleportTarget_TT")
+                if teleportTarget == nil then
+                    Debug.Log("Teleport target not found!")
+                    return
+                end
+
+            Debug.Log("Teleporting player..." .. teleportTarget.name)
+
+            Player.Mine.TeleportPlayer(teleportTarget.transform.position, teleportTarget.transform.rotation)
+            else
+                Debug.Log("Not enough ingredients!")
+            end
+            return
+        end
+
+
      hits[closestHitIndex].transform.gameObject:SetActive(false)
 
 
