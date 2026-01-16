@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
-  m_DefaultGroup: 855e79f8feacdb34fa74c2b04e577100
+  m_DefaultGroup: d7658915b7d6c434dbc985b4dc756d50
   m_currentHash:
     serializedVersion: 2
-    Hash: 120500df92383b83a2a5ca95d2306dad
+    Hash: e2181297eda579d547cd7d983a2f2ef6
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
@@ -46,10 +46,10 @@ MonoBehaviour:
   m_StripUnityVersionFromBundleBuild: 0
   m_DisableVisibleSubAssetRepresentations: 0
   m_BuiltInBundleNaming: 2
-  mBuiltInBundleCustomNaming: 64bab7b0-2d52-482c-81a5-5e868ed6cdcb
+  mBuiltInBundleCustomNaming: d56e9e2b-9a2a-4d1e-8046-00a52000e4d7
   m_MonoScriptBundleNaming: 2
   m_CheckForContentUpdateRestrictionsOption: 0
-  m_MonoScriptBundleCustomNaming: 64bab7b0-2d52-482c-81a5-5e868ed6cdcb
+  m_MonoScriptBundleCustomNaming: d56e9e2b-9a2a-4d1e-8046-00a52000e4d7
   m_RemoteCatalogBuildPath:
     m_Id: d89aac727ae3ab14a8f90145278bd7a7
   m_RemoteCatalogLoadPath:
@@ -58,7 +58,7 @@ MonoBehaviour:
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 0
-  m_overridePlayerVersion: v2
+  m_overridePlayerVersion: 0.1
   m_GroupAssets:
   - {fileID: 11400000, guid: fd5c7ee02686cf14faf31cb50268e138, type: 2}
   m_BuildSettings:
@@ -73,11 +73,11 @@ MonoBehaviour:
       - m_Id: 7f7bb8ad8fda7b54db2cf85d6756631e
         m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
       - m_Id: b1ef19a4f62dd294e86d04b79eb9f07d
-        m_Value: '{{REMOTE_PATH}}/'
+        m_Value: C:\Users\yes\AppData\Local\Temp\/VivenSDK/
       - m_Id: b72b37c16c04546498b919f271b8d99f
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: d89aac727ae3ab14a8f90145278bd7a7
-        m_Value: 'ServerData/2ac8248f-794a-4af4-b4e8-1ec7abd4a7bc/SampleScene/[BuildTarget]'
+        m_Value: C:\Users\yes\AppData\Local\Temp\/VivenSDK/
       - m_Id: f0e472cdea1dbcc478b9c5336dae26ec
         m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
     m_ProfileEntryNames:
