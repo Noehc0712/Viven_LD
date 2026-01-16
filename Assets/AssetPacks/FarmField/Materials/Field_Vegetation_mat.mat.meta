@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5e9a30b8b1e25b047bab88fb88b3ac41
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159006
+  packageName: Farm Field
+  packageVersion: 1.0
+  assetPath: Assets/AssetPacks/FarmField/Materials/Field_Vegetation_mat.mat
+  uploadId: 384190
